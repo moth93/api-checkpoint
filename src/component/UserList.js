@@ -1,6 +1,7 @@
 // UserList.js
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import "./userlist.css"
 
 const UserList = () => {
   const [listOfUsers, setListOfUsers] = useState([]);
